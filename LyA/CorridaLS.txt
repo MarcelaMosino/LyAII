@@ -1,0 +1,656 @@
+Corrida de Analizador Léxico Sintáctico
+
+Lee de archivo: Programa
+Tope pila: 900
+X 900   A: 800
+Matriz devuelve: 0
+Entra a pila 901
+Entra a pila 800
+Tope pila: 800
+X 800   A: 800
+Saca 800 de la pila
+
+Lee de archivo Inicio
+Tope pila: 901
+X 901   A: 805
+Matriz devuelve: 1
+Entra a pila 806
+Entra a pila 902
+Entra a pila 805
+Tope pila: 805
+X 805   A: 805
+Saca 805 de la pila
+
+Lee de archivo Real
+Tope pila: 902
+X 902   A: 801
+Matriz devuelve: 2
+Entra a pila 903
+Entra a pila 904
+Tope pila: 904
+X 904   A: 801
+Matriz devuelve: 5
+Entra a pila 59
+Entra a pila 905
+Entra a pila 910
+Tope pila: 910
+X 910   A: 801
+Matriz devuelve: 20
+Entra a pila 801
+Tope pila: 801
+X 801   A: 801
+Saca 801 de la pila
+
+Lee de archivo multiple
+Tope pila: 905
+X 905   A: 1001
+Matriz devuelve: 9
+Entra a pila 906
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo ,
+Tope pila: 906
+X 906   A: 44
+Matriz devuelve: 10
+Entra a pila 906
+Entra a pila 1001
+Entra a pila 44
+Tope pila: 44
+X 44   A: 44
+Saca 44 de la pila
+
+Lee de archivo res
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo ;
+Tope pila: 906
+X 906   A: 59
+Matriz devuelve: 11
+Tope pila: 59
+X 59   A: 59
+Saca 59 de la pila
+
+Lee de archivo Entero
+Tope pila: 903
+X 903   A: 802
+Matriz devuelve: 3
+Entra a pila 903
+Entra a pila 904
+Tope pila: 904
+X 904   A: 802
+Matriz devuelve: 5
+Entra a pila 59
+Entra a pila 905
+Entra a pila 910
+Tope pila: 910
+X 910   A: 802
+Matriz devuelve: 19
+Entra a pila 802
+Tope pila: 802
+X 802   A: 802
+Saca 802 de la pila
+
+Lee de archivo numero
+Tope pila: 905
+X 905   A: 1001
+Matriz devuelve: 9
+Entra a pila 906
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo ,
+Tope pila: 906
+X 906   A: 44
+Matriz devuelve: 10
+Entra a pila 906
+Entra a pila 1001
+Entra a pila 44
+Tope pila: 44
+X 44   A: 44
+Saca 44 de la pila
+
+Lee de archivo num
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo ;
+Tope pila: 906
+X 906   A: 59
+Matriz devuelve: 11
+Tope pila: 59
+X 59   A: 59
+Saca 59 de la pila
+
+Lee de archivo numero
+Tope pila: 903
+X 903   A: 1001
+Matriz devuelve: 3
+Entra a pila 903
+Entra a pila 904
+Tope pila: 904
+X 904   A: 1001
+Matriz devuelve: 6
+Entra a pila 59
+Entra a pila 907
+Entra a pila 61
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo =
+Tope pila: 61
+X 61   A: 61
+Saca 61 de la pila
+
+Lee de archivo 23
+Tope pila: 907
+X 907   A: 333
+Matriz devuelve: 12
+Entra a pila 908
+Entra a pila 909
+Tope pila: 909
+X 909   A: 333
+Matriz devuelve: 17
+Entra a pila 333
+Tope pila: 333
+X 333   A: 333
+Saca 333 de la pila
+
+Lee de archivo ;
+Tope pila: 908
+X 908   A: 59
+Matriz devuelve: 14
+Tope pila: 59
+X 59   A: 59
+Saca 59 de la pila
+
+Lee de archivo Leer
+Tope pila: 903
+X 903   A: 803
+Matriz devuelve: 3
+Entra a pila 903
+Entra a pila 904
+Tope pila: 904
+X 904   A: 803
+Matriz devuelve: 7
+Entra a pila 59
+Entra a pila 41
+Entra a pila 905
+Entra a pila 40
+Entra a pila 803
+Tope pila: 803
+X 803   A: 803
+Saca 803 de la pila
+
+Lee de archivo (
+Tope pila: 40
+X 40   A: 40
+Saca 40 de la pila
+
+Lee de archivo num
+Tope pila: 905
+X 905   A: 1001
+Matriz devuelve: 9
+Entra a pila 906
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo )
+Tope pila: 906
+X 906   A: 41
+Matriz devuelve: 11
+Tope pila: 41
+X 41   A: 41
+Saca 41 de la pila
+
+Lee de archivo ;
+Tope pila: 59
+X 59   A: 59
+Saca 59 de la pila
+
+Lee de archivo multiple
+Tope pila: 903
+X 903   A: 1001
+Matriz devuelve: 3
+Entra a pila 903
+Entra a pila 904
+Tope pila: 904
+X 904   A: 1001
+Matriz devuelve: 6
+Entra a pila 59
+Entra a pila 907
+Entra a pila 61
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo =
+Tope pila: 61
+X 61   A: 61
+Saca 61 de la pila
+
+Lee de archivo 56
+Tope pila: 907
+X 907   A: 333
+Matriz devuelve: 12
+Entra a pila 908
+Entra a pila 909
+Tope pila: 909
+X 909   A: 333
+Matriz devuelve: 17
+Entra a pila 333
+Tope pila: 333
+X 333   A: 333
+Saca 333 de la pila
+
+Lee de archivo +
+Tope pila: 908
+X 908   A: 43
+Matriz devuelve: 13
+Entra a pila 908
+Entra a pila 909
+Entra a pila 911
+Tope pila: 911
+X 911   A: 43
+Matriz devuelve: 21
+Entra a pila 43
+Tope pila: 43
+X 43   A: 43
+Saca 43 de la pila
+
+Lee de archivo (
+Tope pila: 909
+X 909   A: 40
+Matriz devuelve: 15
+Entra a pila 41
+Entra a pila 907
+Entra a pila 40
+Tope pila: 40
+X 40   A: 40
+Saca 40 de la pila
+
+Lee de archivo numero
+Tope pila: 907
+X 907   A: 1001
+Matriz devuelve: 12
+Entra a pila 908
+Entra a pila 909
+Tope pila: 909
+X 909   A: 1001
+Matriz devuelve: 16
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo -
+Tope pila: 908
+X 908   A: 45
+Matriz devuelve: 13
+Entra a pila 908
+Entra a pila 909
+Entra a pila 911
+Tope pila: 911
+X 911   A: 45
+Matriz devuelve: 22
+Entra a pila 45
+Tope pila: 45
+X 45   A: 45
+Saca 45 de la pila
+
+Lee de archivo num
+Tope pila: 909
+X 909   A: 1001
+Matriz devuelve: 16
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo )
+Tope pila: 908
+X 908   A: 41
+Matriz devuelve: 14
+Tope pila: 41
+X 41   A: 41
+Saca 41 de la pila
+
+Lee de archivo ;
+Tope pila: 908
+X 908   A: 59
+Matriz devuelve: 14
+Tope pila: 59
+X 59   A: 59
+Saca 59 de la pila
+
+Lee de archivo numero
+Tope pila: 903
+X 903   A: 1001
+Matriz devuelve: 3
+Entra a pila 903
+Entra a pila 904
+Tope pila: 904
+X 904   A: 1001
+Matriz devuelve: 6
+Entra a pila 59
+Entra a pila 907
+Entra a pila 61
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo =
+Tope pila: 61
+X 61   A: 61
+Saca 61 de la pila
+
+Lee de archivo multiple
+Tope pila: 907
+X 907   A: 1001
+Matriz devuelve: 12
+Entra a pila 908
+Entra a pila 909
+Tope pila: 909
+X 909   A: 1001
+Matriz devuelve: 16
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo /
+Tope pila: 908
+X 908   A: 47
+Matriz devuelve: 13
+Entra a pila 908
+Entra a pila 909
+Entra a pila 911
+Tope pila: 911
+X 911   A: 47
+Matriz devuelve: 23
+Entra a pila 47
+Tope pila: 47
+X 47   A: 47
+Saca 47 de la pila
+
+Lee de archivo 123.99
+Tope pila: 909
+X 909   A: 334
+Matriz devuelve: 18
+Entra a pila 334
+Tope pila: 334
+X 334   A: 334
+Saca 334 de la pila
+
+Lee de archivo ;
+Tope pila: 908
+X 908   A: 59
+Matriz devuelve: 14
+Tope pila: 59
+X 59   A: 59
+Saca 59 de la pila
+
+Lee de archivo res
+Tope pila: 903
+X 903   A: 1001
+Matriz devuelve: 3
+Entra a pila 903
+Entra a pila 904
+Tope pila: 904
+X 904   A: 1001
+Matriz devuelve: 6
+Entra a pila 59
+Entra a pila 907
+Entra a pila 61
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo =
+Tope pila: 61
+X 61   A: 61
+Saca 61 de la pila
+
+Lee de archivo numero
+Tope pila: 907
+X 907   A: 1001
+Matriz devuelve: 12
+Entra a pila 908
+Entra a pila 909
+Tope pila: 909
+X 909   A: 1001
+Matriz devuelve: 16
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo +
+Tope pila: 908
+X 908   A: 43
+Matriz devuelve: 13
+Entra a pila 908
+Entra a pila 909
+Entra a pila 911
+Tope pila: 911
+X 911   A: 43
+Matriz devuelve: 21
+Entra a pila 43
+Tope pila: 43
+X 43   A: 43
+Saca 43 de la pila
+
+Lee de archivo num
+Tope pila: 909
+X 909   A: 1001
+Matriz devuelve: 16
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo ;
+Tope pila: 908
+X 908   A: 59
+Matriz devuelve: 14
+Tope pila: 59
+X 59   A: 59
+Saca 59 de la pila
+
+Lee de archivo Escribir
+Tope pila: 903
+X 903   A: 804
+Matriz devuelve: 3
+Entra a pila 903
+Entra a pila 904
+Tope pila: 904
+X 904   A: 804
+Matriz devuelve: 8
+Entra a pila 59
+Entra a pila 41
+Entra a pila 907
+Entra a pila 40
+Entra a pila 804
+Tope pila: 804
+X 804   A: 804
+Saca 804 de la pila
+
+Lee de archivo (
+Tope pila: 40
+X 40   A: 40
+Saca 40 de la pila
+
+Lee de archivo res
+Tope pila: 907
+X 907   A: 1001
+Matriz devuelve: 12
+Entra a pila 908
+Entra a pila 909
+Tope pila: 909
+X 909   A: 1001
+Matriz devuelve: 16
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo )
+Tope pila: 908
+X 908   A: 41
+Matriz devuelve: 14
+Tope pila: 41
+X 41   A: 41
+Saca 41 de la pila
+
+Lee de archivo ;
+Tope pila: 59
+X 59   A: 59
+Saca 59 de la pila
+
+Lee de archivo Fin
+Tope pila: 903
+X 903   A: 806
+Matriz devuelve: 4
+Tope pila: 806
+X 806   A: 806
+Saca 806 de la pila
+
+Lee de archivo Fin
+
+Sin errores léxicos o sintácticos
+
+Tablas 
+
+
+***********************************************Tabla de tokens
+Lexema		Categoría	Tipo	tAtributo
+Programa		Palabra reservada		Función		800
+
+Inicio		Palabra reservada		Inicial		805
+
+Real		Palabra reservada		Tipo de dato		801
+
+multiple		Identificador		Real		1001
+
+,		Caracter simple		Coma		44
+
+res		Identificador		Real		1002
+
+;		Caracter simple		Punto y coma		59
+
+Entero		Palabra reservada		Tipo de dato		802
+
+numero		Identificador		Entero		1003
+
+,		Caracter simple		Coma		44
+
+num		Identificador		Entero		1004
+
+;		Caracter simple		Punto y coma		59
+
+numero		Identificador		Entero		1003
+
+=		Caracter simple		Igual		61
+
+23		Entero		Entero		333
+
+;		Caracter simple		Punto y coma		59
+
+Leer		Palabra reservada		Función		803
+
+(		Caracter simple		P que abre		40
+
+num		Identificador		Entero		1004
+
+)		Caracter simple		P que cierra		41
+
+;		Caracter simple		Punto y coma		59
+
+multiple		Identificador		Real		1001
+
+=		Caracter simple		Igual		61
+
+56		Entero		Entero		333
+
++		Caracter simple		Op suma		43
+
+(		Caracter simple		P que abre		40
+
+numero		Identificador		Entero		1003
+
+-		Caracter simple		Op resta		45
+
+num		Identificador		Entero		1004
+
+)		Caracter simple		P que cierra		41
+
+;		Caracter simple		Punto y coma		59
+
+numero		Identificador		Entero		1003
+
+=		Caracter simple		Igual		61
+
+multiple		Identificador		Real		1001
+
+/		Caracter simple		Op división		47
+
+123.99		Real		Real		334
+
+;		Caracter simple		Punto y coma		59
+
+res		Identificador		Real		1002
+
+=		Caracter simple		Igual		61
+
+numero		Identificador		Entero		1003
+
++		Caracter simple		Op suma		43
+
+num		Identificador		Entero		1004
+
+;		Caracter simple		Punto y coma		59
+
+Escribir		Palabra reservada		Función		804
+
+(		Caracter simple		P que abre		40
+
+res		Identificador		Real		1002
+
+)		Caracter simple		P que cierra		41
+
+;		Caracter simple		Punto y coma		59
+
+Fin		Palabra reservada		Final		806
+
+
+
+***********************************************Tabla de palabras reservadas
+Lexema		Categoría	Tipo	tAtributo
+Programa		Palabra reservada		Función		800
+
+Inicio		Palabra reservada		Inicial		805
+
+Real		Palabra reservada		Tipo de dato		801
+
+Entero		Palabra reservada		Tipo de dato		802
+
+Leer		Palabra reservada		Función		803
+
+Escribir		Palabra reservada		Función		804
+
+Fin		Palabra reservada		Final		806
+

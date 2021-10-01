@@ -1,0 +1,13 @@
+Programa
+	Inicio
+	Real multiple , res ;
+	numero = 23;
+
+	Leer(num_);
+
+	multiple = 56 + (numero -  num);
+	numero = multiple / 123.99 ;
+
+	res = numero + cuenta ;
+	Escribir (res) ;
+Fin

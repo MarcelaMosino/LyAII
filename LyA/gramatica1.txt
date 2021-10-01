@@ -1,0 +1,24 @@
+inicio -> Programa program
+program -> Inicio stmtlist Fin
+stmtlist -> stmt stmtf
+stmtf -> stmt stmtf
+stmtf -> ^
+stmt -> tipo idlist ;
+stmt -> id = expression ;
+stmt -> Leer ( idlist ) ;
+stmt -> Escribir ( expression ) ;
+idlist -> id idfinal
+idfinal -> , id idfinal
+idfinal -> ^
+expression -> primary primarytail
+primarytail -> aritop primary primarytail
+primarytail -> ^
+primary -> ( expression )
+primary -> id
+primary -> intliteral
+primary -> realliteral
+tipo -> Entero
+tipo -> Real
+aritop -> +
+aritop -> -
+aritop -> /
