@@ -1,15 +1,14 @@
 Programa
 	Inicio
-	Real multiple, res;
-	Entero numero, num;
+	Real peso, altura;
+	Entero edad, nacimiento;
 
-	numero = 23;
+	edad = 22;
+	peso = 68.9;
 
-	Leer(num);
+	Escribir(edad);
+	Escribir(peso);
 
-	multiple = 56 + (numero -  num);
-	numero = multiple / 123.99 ;
-
-	res = numero + num ;
-	Escribir (res) ;
+	altura = 100.0 - altura;
+	nacimiento = 2021 - edad;
 Fin
