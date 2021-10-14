@@ -13,6 +13,7 @@ public class Token {
         // 334 Flotantes
         // ASCII caracteres especiales
     public int tipo;
+    public int prioridad=0;
     public String tipoString;
         // 1  Función
         // 2  Inicial
@@ -93,19 +94,25 @@ public class Token {
         switch(atributo){
             case 44: tipo = 6; tipoString="Coma"; break;
             case 59: tipo = 7; tipoString="Punto y coma"; break;
-            case 40: tipo = 8; tipoString="P que abre"; break;
+            case 40: tipo = 8; tipoString="P que abre"; 
+            prioridad = 3; break;
             case 41: tipo = 9; tipoString="P que cierra"; break;
             case 61: tipo =10; tipoString="Igual"; break;
-            case 43: tipo =11; tipoString="Op suma"; break;
-            case 45: tipo =12; tipoString="Op resta"; break;
-            case 42: tipo =13; tipoString="Op multiplicación"; break;
-            case 47: tipo =14; tipoString="Op división"; break;
+            case 43: tipo =11; tipoString="Op suma"; 
+            prioridad = 1; break;
+            case 45: tipo =12; tipoString="Op resta"; 
+            prioridad = 1; break;
+            case 42: tipo =13; tipoString="Op multiplicación"; 
+            prioridad = 2; break;
+            case 47: tipo =14; tipoString="Op división"; 
+            prioridad = 2; break;
         }
     }
     
     //Para impresión
     @Override
     public String toString(){
-        return lexema+"\t\t"+clasificacion+"\t\t"+tipoString+"\t\t"+atributo+"\n";
+        return lexema+"\t\t"+clasificacion+"\t\t"
+                +tipoString+"\t\t"+atributo+"\n";
     }
 }

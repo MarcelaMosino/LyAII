@@ -1,0 +1,15 @@
+Programa
+	Inicio
+	Real multiple, res;
+	Entero numero, num;
+
+	numero = 23;
+
+	Leer(num);
+
+	multiple = 56.2 + (res -  5.3);
+	numero = num / 42;
+
+	num = numero + 64 ;
+	Escribir (res) ;
+Fin

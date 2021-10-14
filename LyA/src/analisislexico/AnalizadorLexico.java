@@ -5,8 +5,6 @@ import cola.Cola;
 import java.io.File;
 import java.io.IOException;
 import java.util.*;
-import static javax.swing.UIManager.get;
-import pila.Pila;
 
 
 public class AnalizadorLexico {
@@ -97,6 +95,8 @@ public class AnalizadorLexico {
             case 1: //Revisa que el identificador sea correcto
                 if(l.isIdentificador(substring)){
                     tok = new Token(id, substring,tipoCorrecto(substring));
+                    if(tok.tipoString.equals("Real"))tok.tipo=4;
+                    if(tok.tipoString.equals("Entero"))tok.tipo=5;
                     tT.add(tok);
                     id.put(substring, tok.atributo);
                     tipos.put(substring, tok.tipoString);
@@ -132,10 +132,8 @@ public class AnalizadorLexico {
         if (entero) return "Entero";
         else if(tipos.containsKey(s))
             return tipos.get(s);
-        else{
-            System.out.println("El id no ha sido declarado");
+        else
             return "Error";
-        }
     }
     
     @Override

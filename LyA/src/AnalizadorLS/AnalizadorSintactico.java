@@ -1,5 +1,3 @@
-
-
 package AnalizadorLS;
 
 import analisislexico.AnalizadorLexico;

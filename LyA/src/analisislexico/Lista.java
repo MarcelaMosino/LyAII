@@ -7,7 +7,7 @@ import pila.Nodo;
 
 public class Lista<T>{
     public Nodo<T> primero;
-    Nodo<T> ultimo;
+    public Nodo<T> ultimo;
     String cabecera;
     int size=0;
     
@@ -15,7 +15,6 @@ public class Lista<T>{
         //Crea lista con cabecera para impresión
         this.cabecera = cabecera; 
         primero = ultimo = null;
-        size=1;
     }
     
     public void add(T elemento){

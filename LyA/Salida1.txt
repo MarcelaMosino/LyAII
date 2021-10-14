@@ -1,0 +1,16 @@
+****************
+Errores
+No se declaró el identificador: numero
+No se declaró el identificador: num
+No se declaró el identificador: cuenta
+El tipo de multiple no es compatible con el de numero
+
+*****************
+Tabla de Simbolos
+Lexema		Token		Tipo		Valor		Repeticiones	Lineas
+multiple		Identificador		Real		1001		3	3, 9, 10
+res		Identificador		Real		1002		4	3, 9, 12, 13
+23		Entero		Entero		23		1	5
+56.3		Real		Real		56.3		1	9
+12.6		Real		Real		12.6		1	9
+123.99		Real		Real		123.99		1	10

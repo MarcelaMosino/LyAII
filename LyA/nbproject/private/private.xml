@@ -5,21 +5,12 @@
             <url>src/analisislexico/Token.java</url>
             <bookmark id="1">
                 <name/>
-                <line>87</line>
+                <line>96</line>
                 <key/>
             </bookmark>
         </file>
     </editor-bookmarks>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group>
-            <file>file:/C:/Users/TecNM/Documents/NetBeansProjects/LyA/src/analisislexico/Token.java</file>
-            <file>file:/C:/Users/TecNM/Documents/NetBeansProjects/LyA/src/gramatica/Gramatica.java</file>
-            <file>file:/C:/Users/TecNM/Documents/NetBeansProjects/LyA/src/analisislexico/AnalizadorLexico.java</file>
-            <file>file:/C:/Users/TecNM/Documents/NetBeansProjects/LyA/src/AnalizadorLS/AnalizadorSintactico.java</file>
-            <file>file:/C:/Users/TecNM/Documents/NetBeansProjects/LyA/src/AnalizadorLS/Archivo.java</file>
-            <file>file:/C:/Users/TecNM/Documents/NetBeansProjects/LyA/src/AnalizadorS/Simbolo.java</file>
-            <file>file:/C:/Users/TecNM/Documents/NetBeansProjects/LyA/src/analisislexico/Lista.java</file>
-            <file>file:/C:/Users/TecNM/Documents/NetBeansProjects/LyA/src/AnalizadorS/AnalizadorSemantico.java</file>
-        </group>
+        <group/>
     </open-files>
 </project-private>

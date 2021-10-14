@@ -6,7 +6,7 @@ import pila.Nodo;
 public class Cola<T> implements Encolable<T>{
     Nodo<T> primero;
     Nodo<T> ultimo;
-    int tam=0;
+    public int tam=0;
     
     public Cola (){
         primero = null;
@@ -18,9 +18,12 @@ public class Cola<T> implements Encolable<T>{
         if(!isEmpty()){
             T valor = primero.contenido;
             primero = primero.siguiente;
+            tam--;
             return valor;            
-        }else
+        }else{
+            tam--;
             return null;
+        }
     }
 
     @Override
@@ -39,6 +42,7 @@ public class Cola<T> implements Encolable<T>{
     public void vaciar(){
         while(!isEmpty())
             dequeue();
+        tam=0;
     }
     
     public String toString(){

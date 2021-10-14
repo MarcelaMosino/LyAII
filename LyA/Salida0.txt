@@ -1,0 +1,176 @@
+***********************************************Tabla de tokens
+Lexema		Categoría	Tipo	tAtributo
+Programa		Palabra reservada		Función		800
+
+Inicio		Palabra reservada		Inicial		805
+
+Real		Palabra reservada		Tipo de dato		801
+
+multiple		Identificador		Real		1001
+
+,		Caracter simple		Coma		44
+
+res		Identificador		Real		1002
+
+;		Caracter simple		Punto y coma		59
+
+Entero		Palabra reservada		Tipo de dato		802
+
+numero		Identificador		Entero		1003
+
+,		Caracter simple		Coma		44
+
+num		Identificador		Entero		1004
+
+;		Caracter simple		Punto y coma		59
+
+numero		Identificador		Entero		1003
+
+=		Caracter simple		Igual		61
+
+23		Entero		Entero		333
+
+;		Caracter simple		Punto y coma		59
+
+Leer		Palabra reservada		Función		803
+
+(		Caracter simple		P que abre		40
+
+num		Identificador		Entero		1004
+
+)		Caracter simple		P que cierra		41
+
+;		Caracter simple		Punto y coma		59
+
+multiple		Identificador		Real		1001
+
+=		Caracter simple		Igual		61
+
+56.2		Real		Real		334
+
++		Caracter simple		Op suma		43
+
+(		Caracter simple		P que abre		40
+
+res		Identificador		Real		1002
+
+-		Caracter simple		Op resta		45
+
+5.3		Real		Real		334
+
+)		Caracter simple		P que cierra		41
+
+;		Caracter simple		Punto y coma		59
+
+numero		Identificador		Entero		1003
+
+=		Caracter simple		Igual		61
+
+num		Identificador		Entero		1004
+
+/		Caracter simple		Op división		47
+
+42		Entero		Entero		333
+
+;		Caracter simple		Punto y coma		59
+
+num		Identificador		Entero		1004
+
+=		Caracter simple		Igual		61
+
+numero		Identificador		Entero		1003
+
++		Caracter simple		Op suma		43
+
+64		Entero		Entero		333
+
+;		Caracter simple		Punto y coma		59
+
+Escribir		Palabra reservada		Función		804
+
+(		Caracter simple		P que abre		40
+
+res		Identificador		Real		1002
+
+)		Caracter simple		P que cierra		41
+
+;		Caracter simple		Punto y coma		59
+
+Fin		Palabra reservada		Final		806
+
+*****************
+Tabla de Simbolos
+Lexema		Token		Tipo		Valor		Repeticiones	Lineas
+multiple		Identificador		Real		1001		2	3, 10
+res		Identificador		Real		1002		3	3, 10, 14
+numero		Identificador		Entero		1003		4	4, 6, 11, 13
+num		Identificador		Entero		1004		4	4, 8, 11, 13
+23		Entero		Entero		23		1	6
+56.2		Real		Real		56.2		1	10
+5.3		Real		Real		5.3		1	10
+42		Entero		Entero		42		1	11
+64		Entero		Entero		64		1	13
+
+*************************
+Lista de Expresiones
+
+Expresion...
+numero		Identificador		Entero		1003
+
+23		Entero		Entero		333
+
+=		Caracter simple		Igual		61
+
+
+Expresion...
+num		Identificador		Entero		1004
+
+Leer		Palabra reservada		Función		803
+
+
+Expresion...
+multiple		Identificador		Real		1001
+
+56.2		Real		Real		334
+
+res		Identificador		Real		1002
+
++		Caracter simple		Op suma		43
+
+5.3		Real		Real		334
+
+-		Caracter simple		Op resta		45
+
+=		Caracter simple		Igual		61
+
+
+Expresion...
+numero		Identificador		Entero		1003
+
+num		Identificador		Entero		1004
+
+42		Entero		Entero		333
+
+/		Caracter simple		Op división		47
+
+=		Caracter simple		Igual		61
+
+
+Expresion...
+num		Identificador		Entero		1004
+
+numero		Identificador		Entero		1003
+
+64		Entero		Entero		333
+
++		Caracter simple		Op suma		43
+
+=		Caracter simple		Igual		61
+
+
+Expresion...
+res		Identificador		Real		1002
+
+Escribir		Palabra reservada		Función		804
+
+

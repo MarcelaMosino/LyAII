@@ -75,60 +75,6 @@ Tope pila: 59
 X 59   A: 59
 Saca 59 de la pila
 
-Lee de archivo Entero
-Tope pila: 903
-X 903   A: 802
-Matriz devuelve: 3
-Entra a pila 903
-Entra a pila 904
-Tope pila: 904
-X 904   A: 802
-Matriz devuelve: 5
-Entra a pila 59
-Entra a pila 905
-Entra a pila 910
-Tope pila: 910
-X 910   A: 802
-Matriz devuelve: 19
-Entra a pila 802
-Tope pila: 802
-X 802   A: 802
-Saca 802 de la pila
-
-Lee de archivo numero
-Tope pila: 905
-X 905   A: 1001
-Matriz devuelve: 9
-Entra a pila 906
-Entra a pila 1001
-Tope pila: 1001
-X 1001   A: 1001
-Saca 1001 de la pila
-
-Lee de archivo ,
-Tope pila: 906
-X 906   A: 44
-Matriz devuelve: 10
-Entra a pila 906
-Entra a pila 1001
-Entra a pila 44
-Tope pila: 44
-X 44   A: 44
-Saca 44 de la pila
-
-Lee de archivo num
-Tope pila: 1001
-X 1001   A: 1001
-Saca 1001 de la pila
-
-Lee de archivo ;
-Tope pila: 906
-X 906   A: 59
-Matriz devuelve: 11
-Tope pila: 59
-X 59   A: 59
-Saca 59 de la pila
-
 Lee de archivo numero
 Tope pila: 903
 X 903   A: 1001
@@ -241,19 +187,19 @@ Tope pila: 61
 X 61   A: 61
 Saca 61 de la pila
 
-Lee de archivo 56
+Lee de archivo 56.3
 Tope pila: 907
-X 907   A: 333
+X 907   A: 334
 Matriz devuelve: 12
 Entra a pila 908
 Entra a pila 909
 Tope pila: 909
-X 909   A: 333
-Matriz devuelve: 17
-Entra a pila 333
-Tope pila: 333
-X 333   A: 333
-Saca 333 de la pila
+X 909   A: 334
+Matriz devuelve: 18
+Entra a pila 334
+Tope pila: 334
+X 334   A: 334
+Saca 334 de la pila
 
 Lee de archivo +
 Tope pila: 908
@@ -281,19 +227,19 @@ Tope pila: 40
 X 40   A: 40
 Saca 40 de la pila
 
-Lee de archivo numero
+Lee de archivo 12.6
 Tope pila: 907
-X 907   A: 1001
+X 907   A: 334
 Matriz devuelve: 12
 Entra a pila 908
 Entra a pila 909
 Tope pila: 909
-X 909   A: 1001
-Matriz devuelve: 16
-Entra a pila 1001
-Tope pila: 1001
-X 1001   A: 1001
-Saca 1001 de la pila
+X 909   A: 334
+Matriz devuelve: 18
+Entra a pila 334
+Tope pila: 334
+X 334   A: 334
+Saca 334 de la pila
 
 Lee de archivo -
 Tope pila: 908
@@ -310,7 +256,7 @@ Tope pila: 45
 X 45   A: 45
 Saca 45 de la pila
 
-Lee de archivo num
+Lee de archivo res
 Tope pila: 909
 X 909   A: 1001
 Matriz devuelve: 16
@@ -454,7 +400,7 @@ Tope pila: 43
 X 43   A: 43
 Saca 43 de la pila
 
-Lee de archivo num
+Lee de archivo cuenta
 Tope pila: 909
 X 909   A: 1001
 Matriz devuelve: 16
@@ -552,17 +498,7 @@ res		Identificador		Real		1002
 
 ;		Caracter simple		Punto y coma		59
 
-Entero		Palabra reservada		Tipo de dato		802
-
-numero		Identificador		Entero		1003
-
-,		Caracter simple		Coma		44
-
-num		Identificador		Entero		1004
-
-;		Caracter simple		Punto y coma		59
-
-numero		Identificador		Entero		1003
+numero		Identificador		Error		1003
 
 =		Caracter simple		Igual		61
 
@@ -574,7 +510,7 @@ Leer		Palabra reservada		Función		803
 
 (		Caracter simple		P que abre		40
 
-num		Identificador		Entero		1004
+num		Identificador		Error		1004
 
 )		Caracter simple		P que cierra		41
 
@@ -584,23 +520,23 @@ multiple		Identificador		Real		1001
 
 =		Caracter simple		Igual		61
 
-56		Entero		Entero		333
+56.3		Real		Real		334
 
 +		Caracter simple		Op suma		43
 
 (		Caracter simple		P que abre		40
 
-numero		Identificador		Entero		1003
+12.6		Real		Real		334
 
 -		Caracter simple		Op resta		45
 
-num		Identificador		Entero		1004
+res		Identificador		Real		1002
 
 )		Caracter simple		P que cierra		41
 
 ;		Caracter simple		Punto y coma		59
 
-numero		Identificador		Entero		1003
+numero		Identificador		Error		1003
 
 =		Caracter simple		Igual		61
 
@@ -616,11 +552,11 @@ res		Identificador		Real		1002
 
 =		Caracter simple		Igual		61
 
-numero		Identificador		Entero		1003
+numero		Identificador		Error		1003
 
 +		Caracter simple		Op suma		43
 
-num		Identificador		Entero		1004
+cuenta		Identificador		Error		1005
 
 ;		Caracter simple		Punto y coma		59
 
@@ -645,8 +581,6 @@ Programa		Palabra reservada		Función		800
 Inicio		Palabra reservada		Inicial		805
 
 Real		Palabra reservada		Tipo de dato		801
-
-Entero		Palabra reservada		Tipo de dato		802
 
 Leer		Palabra reservada		Función		803
 
