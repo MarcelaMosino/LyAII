@@ -128,6 +128,8 @@ public class AnalizadorLexico {
     }
     
     public String tipoCorrecto(String s){
+        if((real || entero) && tipos.containsKey(s))
+            return "Error0";
         if (real) return "Real";
         if (entero) return "Entero";
         else if(tipos.containsKey(s))
