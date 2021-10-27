@@ -1,7 +1,7 @@
 Programa
 	Inicio
 	Real multiple, res;
-
+	Entero multiple;
 	numero = 23;
 
 	Leer(num);
