@@ -115,33 +115,11 @@ num		Identificador		Entero		1004		4	4, 8, 11, 13
 Lista de Expresiones
 
 Expresion...
-numero		Identificador		Entero		1003
-
-23		Entero		Entero		333
-
-=		Caracter simple		Igual		61
-
-
-Expresion...
-num		Identificador		Entero		1004
-
-Leer		Palabra reservada		Función		803
-
-
-Expresion...
-multiple		Identificador		Real		1001
-
-56.2		Real		Real		334
+multiple	Identificador		Real		1001
 
 res		Identificador		Real		1002
 
-+		Caracter simple		Op suma		43
-
-5.3		Real		Real		334
-
--		Caracter simple		Op resta		45
-
-=		Caracter simple		Igual		61
+Real		Palabra reservada	Tipo de dato	801
 
 
 Expresion...
@@ -149,9 +127,13 @@ numero		Identificador		Entero		1003
 
 num		Identificador		Entero		1004
 
-42		Entero		Entero		333
+Entero		Palabra reservada	Tipo de dato	802
 
-/		Caracter simple		Op división		47
+
+Expresion...
+numero		Identificador		Entero		1003
+
+23		Entero			Entero		333
 
 =		Caracter simple		Igual		61
 
@@ -159,9 +141,19 @@ num		Identificador		Entero		1004
 Expresion...
 num		Identificador		Entero		1004
 
-numero		Identificador		Entero		1003
+Leer		Palabra reservada	Función		803
 
-64		Entero		Entero		333
+
+Expresion...
+multiple	Identificador		Real		1001
+
+56.2		Real			Real		334
+
+res		Identificador		Real		1002
+
+5.3		Real			Real		334
+
+-		Caracter simple		Op resta	45
 
 +		Caracter simple		Op suma		43
 
@@ -169,8 +161,32 @@ numero		Identificador		Entero		1003
 
 
 Expresion...
+numero		Identificador		Entero		1003
+
+num		Identificador		Entero		1004
+
+42		Entero			Entero		333
+
+/		Caracter simple		Op división	47
+
+=		Caracter simple		Igual		61
+
+
+Expresion...
+num		Identificador		Entero		1004
+
+numero		Identificador		Entero		1003
+
+64		Entero			Entero		333
+
++		Caracter simple		Op suma		43
+
+=		Caracter simple		Igual		61
+
+
+Expresion...
 res		Identificador		Real		1002
 
-Escribir		Palabra reservada		Función		804
+Escribir	Palabra reservada	Función		804
 
 
