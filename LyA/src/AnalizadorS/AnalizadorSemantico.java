@@ -33,11 +33,13 @@ public class AnalizadorSemantico {
         
         while (aux!=null) {
             expr=new Lista("");
-            if(aux.contenido.tipo!=2 &&!aux.contenido.lexema.equals("Programa")&&
-               aux.contenido.tipo!=6 && aux.contenido.tipo!=16 && 
-               aux.contenido.tipo!=3 && aux.contenido.tipo!=7){
+            if(aux.contenido.tipo!=2 
+                    &&!aux.contenido.lexema.equals("Programa")&&
+                    aux.contenido.tipo!=6 && aux.contenido.tipo!=16 
+                    && aux.contenido.tipo!=7){
                 while(aux.contenido.tipo!=7){
-                    expr.add(aux.contenido);
+                    if(aux.contenido.tipo!=6)
+                        expr.add(aux.contenido);
                     aux = aux.siguiente;
                 }
             }
@@ -63,8 +65,10 @@ public class AnalizadorSemantico {
             if(aux.contenido.tipoString.equals("Error"))
                 errores.add("No se declaró el identificador: "
                 +aux.contenido.lexema);
-            if(aux.contenido.tipo==4 || aux.contenido.tipo==5
-                    || aux.contenido.tipo==666)
+            if(aux.contenido.tipoString.equals("Error0"))
+                errores.add("El identificador "+aux.contenido.lexema
+                        +" ya ha sido declarado");
+            if(aux.contenido.tipo==4 || aux.contenido.tipo==5)
                 if(!simbolos.contains(aux.contenido.lexema)){
                     tS.add(new Simbolo(aux.contenido));  
                     simbolos.add(aux.contenido.lexema);                    
