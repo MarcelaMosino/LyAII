@@ -16,10 +16,6 @@ public class ExpresionPosfija {
         this.expresion=expresion;
         nuevaExpresion = new Lista("Expresion...");
     }
-
-    ExpresionPosfija() {
-       
-    }
     
     public Lista<Token> convierte(){
         Nodo<Token> aux = expresion.primero;
@@ -42,10 +38,14 @@ public class ExpresionPosfija {
                                 nuevaExpresion.add(auxParentesis);    
                         }while(auxParentesis.tipo != 8);
                     }else{
+                        if(aux.contenido.tipo==8)
+                            aux.contenido.prioridad=0;
                         pila.push(aux.contenido);
                         aux = aux.siguiente;
                     }
                 }else {
+                    if(aux.contenido.tipo==8)
+                        aux.contenido.prioridad=0;
                     pila.push(aux.contenido);
                     aux = aux.siguiente;
                 }
