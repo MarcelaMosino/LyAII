@@ -15,8 +15,9 @@ public class AnalizadorSemantico {
     HashSet<String> simbolos = new HashSet();
     Lista<Simbolo> tS = new Lista("*****************\nTabla de Simbolos\n"
             + "Lexema\t\tToken\t\tTipo\t\tValor\t\tRepeticiones\tLineas");
-    Lista<Lista<Token>> expresiones=new Lista("\n*************************\n"
-            + "Lista de Expresiones\n");
+    public Lista<Lista<Token>> expresiones=new Lista("\n*********"
+            + "****************\nLista de Expresiones\n");
+    String impresion="";
     Archivo salida;
     
     public AnalizadorSemantico(String nA, String nS) throws IOException{
@@ -27,7 +28,7 @@ public class AnalizadorSemantico {
         tTok = as.al.tT;       
     }
     
-    public void llenarExpresiones(){
+    public void llenarExpresiones() throws IOException{
         Nodo<Token> aux = tTok.primero;
         Lista<Token> expr=new Lista("");
         
@@ -53,9 +54,10 @@ public class AnalizadorSemantico {
         }
     }
     
-    public void addPosfija(Lista<Token> e){
+    public void addPosfija(Lista<Token> e) throws IOException{
         ExpresionPosfija expresion = new ExpresionPosfija(e);
         expresiones.add(expresion.convierte());
+        impresion+=expresion.toString()+"\n";
     }
     
     public void llenarTablaSimbolos(){
@@ -141,6 +143,7 @@ public class AnalizadorSemantico {
         contarRenglones();
         llenarExpresiones();
         inspeccionaTipos();
+        Nodo<Lista<Token>> aux;
         if(!errores.isEmpty()){
             Iterator<String> i = errores.iterator();
             String er="";
@@ -150,7 +153,8 @@ public class AnalizadorSemantico {
             salida.escribir("****************\nErrores\n"+er+"\n"+tS);
         }else{
             System.out.println("El programa no tiene errores");
-            salida.escribir(tTok+tS.toString()+expresiones);
+            salida.escribir(impresion);
+            System.out.println(impresion);
         }
     }
     
