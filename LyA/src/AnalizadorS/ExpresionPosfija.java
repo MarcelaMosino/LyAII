@@ -59,4 +59,32 @@ public class ExpresionPosfija {
         return nuevaExpresion;
     }   
     
+    public String obtenTodas(){
+        Nodo<Token> aux = nuevaExpresion.primero;
+        String acc="";
+        String tipo = nuevaExpresion.ultimo.contenido.lexema;
+        
+        while(aux.siguiente!=null){
+            acc += aux.contenido.lexema +" "+tipo+"\n";
+            aux= aux.siguiente;
+        } return acc;
+    }
+    
+    @Override
+    public String toString(){
+        Nodo<Token> aux = nuevaExpresion.primero;
+        String acc="";
+        
+        if(nuevaExpresion.ultimo.contenido.tipo==3)
+            acc+= obtenTodas();
+        else{
+            while (aux != null) {
+                acc += aux.contenido.lexema + " ";
+                aux = aux.siguiente;
+            }
+        }
+        
+        return acc;
+    }
+    
 }       
