@@ -1,7 +1,0 @@
-Programa0.txt no tiene errores
-Programa1.txt tiene identificadores no declarados
-Programa2.txt tiene identificadores mal escritos
-Programa3.txt le falta un ";"
-Programa4.txt tiene errores de tipos
-Programa5.txt tiene errores de tipos e identificadores no declarados
-
