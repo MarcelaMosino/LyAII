@@ -1,0 +1,612 @@
+Corrida de Analizador Léxico Sintáctico
+
+Lee de archivo: Programa
+Tope pila: 900
+X 900   A: 800
+Matriz devuelve: 0
+Entra a pila 901
+Entra a pila 800
+Tope pila: 800
+X 800   A: 800
+Saca 800 de la pila
+
+Lee de archivo Inicio
+Tope pila: 901
+X 901   A: 805
+Matriz devuelve: 1
+Entra a pila 806
+Entra a pila 902
+Entra a pila 805
+Tope pila: 805
+X 805   A: 805
+Saca 805 de la pila
+
+Lee de archivo Entero
+Tope pila: 902
+X 902   A: 802
+Matriz devuelve: 2
+Entra a pila 903
+Entra a pila 904
+Tope pila: 904
+X 904   A: 802
+Matriz devuelve: 5
+Entra a pila 59
+Entra a pila 905
+Entra a pila 910
+Tope pila: 910
+X 910   A: 802
+Matriz devuelve: 19
+Entra a pila 802
+Tope pila: 802
+X 802   A: 802
+Saca 802 de la pila
+
+Lee de archivo perimetro
+Tope pila: 905
+X 905   A: 1001
+Matriz devuelve: 9
+Entra a pila 906
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo ,
+Tope pila: 906
+X 906   A: 44
+Matriz devuelve: 10
+Entra a pila 906
+Entra a pila 1001
+Entra a pila 44
+Tope pila: 44
+X 44   A: 44
+Saca 44 de la pila
+
+Lee de archivo ladoa
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo ,
+Tope pila: 906
+X 906   A: 44
+Matriz devuelve: 10
+Entra a pila 906
+Entra a pila 1001
+Entra a pila 44
+Tope pila: 44
+X 44   A: 44
+Saca 44 de la pila
+
+Lee de archivo ladob
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo ,
+Tope pila: 906
+X 906   A: 44
+Matriz devuelve: 10
+Entra a pila 906
+Entra a pila 1001
+Entra a pila 44
+Tope pila: 44
+X 44   A: 44
+Saca 44 de la pila
+
+Lee de archivo ladoc
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo ,
+Tope pila: 906
+X 906   A: 44
+Matriz devuelve: 10
+Entra a pila 906
+Entra a pila 1001
+Entra a pila 44
+Tope pila: 44
+X 44   A: 44
+Saca 44 de la pila
+
+Lee de archivo ladod
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo ;
+Tope pila: 906
+X 906   A: 59
+Matriz devuelve: 11
+Tope pila: 59
+X 59   A: 59
+Saca 59 de la pila
+
+Lee de archivo Leer
+Tope pila: 903
+X 903   A: 803
+Matriz devuelve: 3
+Entra a pila 903
+Entra a pila 904
+Tope pila: 904
+X 904   A: 803
+Matriz devuelve: 7
+Entra a pila 59
+Entra a pila 41
+Entra a pila 905
+Entra a pila 40
+Entra a pila 803
+Tope pila: 803
+X 803   A: 803
+Saca 803 de la pila
+
+Lee de archivo (
+Tope pila: 40
+X 40   A: 40
+Saca 40 de la pila
+
+Lee de archivo ladoa
+Tope pila: 905
+X 905   A: 1001
+Matriz devuelve: 9
+Entra a pila 906
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo )
+Tope pila: 906
+X 906   A: 41
+Matriz devuelve: 11
+Tope pila: 41
+X 41   A: 41
+Saca 41 de la pila
+
+Lee de archivo ;
+Tope pila: 59
+X 59   A: 59
+Saca 59 de la pila
+
+Lee de archivo Leer
+Tope pila: 903
+X 903   A: 803
+Matriz devuelve: 3
+Entra a pila 903
+Entra a pila 904
+Tope pila: 904
+X 904   A: 803
+Matriz devuelve: 7
+Entra a pila 59
+Entra a pila 41
+Entra a pila 905
+Entra a pila 40
+Entra a pila 803
+Tope pila: 803
+X 803   A: 803
+Saca 803 de la pila
+
+Lee de archivo (
+Tope pila: 40
+X 40   A: 40
+Saca 40 de la pila
+
+Lee de archivo ladob
+Tope pila: 905
+X 905   A: 1001
+Matriz devuelve: 9
+Entra a pila 906
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo )
+Tope pila: 906
+X 906   A: 41
+Matriz devuelve: 11
+Tope pila: 41
+X 41   A: 41
+Saca 41 de la pila
+
+Lee de archivo ;
+Tope pila: 59
+X 59   A: 59
+Saca 59 de la pila
+
+Lee de archivo Leer
+Tope pila: 903
+X 903   A: 803
+Matriz devuelve: 3
+Entra a pila 903
+Entra a pila 904
+Tope pila: 904
+X 904   A: 803
+Matriz devuelve: 7
+Entra a pila 59
+Entra a pila 41
+Entra a pila 905
+Entra a pila 40
+Entra a pila 803
+Tope pila: 803
+X 803   A: 803
+Saca 803 de la pila
+
+Lee de archivo (
+Tope pila: 40
+X 40   A: 40
+Saca 40 de la pila
+
+Lee de archivo ladoc
+Tope pila: 905
+X 905   A: 1001
+Matriz devuelve: 9
+Entra a pila 906
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo )
+Tope pila: 906
+X 906   A: 41
+Matriz devuelve: 11
+Tope pila: 41
+X 41   A: 41
+Saca 41 de la pila
+
+Lee de archivo ;
+Tope pila: 59
+X 59   A: 59
+Saca 59 de la pila
+
+Lee de archivo Leer
+Tope pila: 903
+X 903   A: 803
+Matriz devuelve: 3
+Entra a pila 903
+Entra a pila 904
+Tope pila: 904
+X 904   A: 803
+Matriz devuelve: 7
+Entra a pila 59
+Entra a pila 41
+Entra a pila 905
+Entra a pila 40
+Entra a pila 803
+Tope pila: 803
+X 803   A: 803
+Saca 803 de la pila
+
+Lee de archivo (
+Tope pila: 40
+X 40   A: 40
+Saca 40 de la pila
+
+Lee de archivo ladod
+Tope pila: 905
+X 905   A: 1001
+Matriz devuelve: 9
+Entra a pila 906
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo )
+Tope pila: 906
+X 906   A: 41
+Matriz devuelve: 11
+Tope pila: 41
+X 41   A: 41
+Saca 41 de la pila
+
+Lee de archivo ;
+Tope pila: 59
+X 59   A: 59
+Saca 59 de la pila
+
+Lee de archivo perimetro
+Tope pila: 903
+X 903   A: 1001
+Matriz devuelve: 3
+Entra a pila 903
+Entra a pila 904
+Tope pila: 904
+X 904   A: 1001
+Matriz devuelve: 6
+Entra a pila 59
+Entra a pila 907
+Entra a pila 61
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo =
+Tope pila: 61
+X 61   A: 61
+Saca 61 de la pila
+
+Lee de archivo ladoa
+Tope pila: 907
+X 907   A: 1001
+Matriz devuelve: 12
+Entra a pila 908
+Entra a pila 909
+Tope pila: 909
+X 909   A: 1001
+Matriz devuelve: 16
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo +
+Tope pila: 908
+X 908   A: 43
+Matriz devuelve: 13
+Entra a pila 908
+Entra a pila 909
+Entra a pila 911
+Tope pila: 911
+X 911   A: 43
+Matriz devuelve: 21
+Entra a pila 43
+Tope pila: 43
+X 43   A: 43
+Saca 43 de la pila
+
+Lee de archivo ladob
+Tope pila: 909
+X 909   A: 1001
+Matriz devuelve: 16
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo +
+Tope pila: 908
+X 908   A: 43
+Matriz devuelve: 13
+Entra a pila 908
+Entra a pila 909
+Entra a pila 911
+Tope pila: 911
+X 911   A: 43
+Matriz devuelve: 21
+Entra a pila 43
+Tope pila: 43
+X 43   A: 43
+Saca 43 de la pila
+
+Lee de archivo ladoc
+Tope pila: 909
+X 909   A: 1001
+Matriz devuelve: 16
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo +
+Tope pila: 908
+X 908   A: 43
+Matriz devuelve: 13
+Entra a pila 908
+Entra a pila 909
+Entra a pila 911
+Tope pila: 911
+X 911   A: 43
+Matriz devuelve: 21
+Entra a pila 43
+Tope pila: 43
+X 43   A: 43
+Saca 43 de la pila
+
+Lee de archivo ladod
+Tope pila: 909
+X 909   A: 1001
+Matriz devuelve: 16
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo ;
+Tope pila: 908
+X 908   A: 59
+Matriz devuelve: 14
+Tope pila: 59
+X 59   A: 59
+Saca 59 de la pila
+
+Lee de archivo Escribir
+Tope pila: 903
+X 903   A: 804
+Matriz devuelve: 3
+Entra a pila 903
+Entra a pila 904
+Tope pila: 904
+X 904   A: 804
+Matriz devuelve: 8
+Entra a pila 59
+Entra a pila 41
+Entra a pila 907
+Entra a pila 40
+Entra a pila 804
+Tope pila: 804
+X 804   A: 804
+Saca 804 de la pila
+
+Lee de archivo (
+Tope pila: 40
+X 40   A: 40
+Saca 40 de la pila
+
+Lee de archivo perimetro
+Tope pila: 907
+X 907   A: 1001
+Matriz devuelve: 12
+Entra a pila 908
+Entra a pila 909
+Tope pila: 909
+X 909   A: 1001
+Matriz devuelve: 16
+Entra a pila 1001
+Tope pila: 1001
+X 1001   A: 1001
+Saca 1001 de la pila
+
+Lee de archivo )
+Tope pila: 908
+X 908   A: 41
+Matriz devuelve: 14
+Tope pila: 41
+X 41   A: 41
+Saca 41 de la pila
+
+Lee de archivo ;
+Tope pila: 59
+X 59   A: 59
+Saca 59 de la pila
+
+Lee de archivo Fin
+Tope pila: 903
+X 903   A: 806
+Matriz devuelve: 4
+Tope pila: 806
+X 806   A: 806
+Saca 806 de la pila
+
+Lee de archivo Fin
+
+Sin errores léxicos o sintácticos
+
+Tablas 
+
+
+***********************************************Tabla de tokens
+Lexema		Categoría	Tipo	tAtributo
+Programa		Palabra reservada		Función		800
+
+Inicio		Palabra reservada		Inicial		805
+
+Entero		Palabra reservada		Tipo de dato		802
+
+perimetro		Identificador		Entero		1001
+
+,		Caracter simple		Coma		44
+
+ladoa		Identificador		Entero		1002
+
+,		Caracter simple		Coma		44
+
+ladob		Identificador		Entero		1003
+
+,		Caracter simple		Coma		44
+
+ladoc		Identificador		Entero		1004
+
+,		Caracter simple		Coma		44
+
+ladod		Identificador		Entero		1005
+
+;		Caracter simple		Punto y coma		59
+
+Leer		Palabra reservada		Función		803
+
+(		Caracter simple		P que abre		40
+
+ladoa		Identificador		Entero		1002
+
+)		Caracter simple		P que cierra		41
+
+;		Caracter simple		Punto y coma		59
+
+Leer		Palabra reservada		Función		803
+
+(		Caracter simple		P que abre		40
+
+ladob		Identificador		Entero		1003
+
+)		Caracter simple		P que cierra		41
+
+;		Caracter simple		Punto y coma		59
+
+Leer		Palabra reservada		Función		803
+
+(		Caracter simple		P que abre		40
+
+ladoc		Identificador		Entero		1004
+
+)		Caracter simple		P que cierra		41
+
+;		Caracter simple		Punto y coma		59
+
+Leer		Palabra reservada		Función		803
+
+(		Caracter simple		P que abre		40
+
+ladod		Identificador		Entero		1005
+
+)		Caracter simple		P que cierra		41
+
+;		Caracter simple		Punto y coma		59
+
+perimetro		Identificador		Entero		1001
+
+=		Caracter simple		Igual		61
+
+ladoa		Identificador		Entero		1002
+
++		Caracter simple		Op suma		43
+
+ladob		Identificador		Entero		1003
+
++		Caracter simple		Op suma		43
+
+ladoc		Identificador		Entero		1004
+
++		Caracter simple		Op suma		43
+
+ladod		Identificador		Entero		1005
+
+;		Caracter simple		Punto y coma		59
+
+Escribir		Palabra reservada		Función		804
+
+(		Caracter simple		P que abre		40
+
+perimetro		Identificador		Entero		1001
+
+)		Caracter simple		P que cierra		41
+
+;		Caracter simple		Punto y coma		59
+
+Fin		Palabra reservada		Final		806
+
+
+
+***********************************************Tabla de palabras reservadas
+Lexema		Categoría	Tipo	tAtributo
+Programa		Palabra reservada		Función		800
+
+Inicio		Palabra reservada		Inicial		805
+
+Entero		Palabra reservada		Tipo de dato		802
+
+Leer		Palabra reservada		Función		803
+
+Leer		Palabra reservada		Función		803
+
+Leer		Palabra reservada		Función		803
+
+Leer		Palabra reservada		Función		803
+
+Escribir		Palabra reservada		Función		804
+
+Fin		Palabra reservada		Final		806
+

@@ -1,0 +1,11 @@
+Programa
+	Inicio
+	Entero perimetro,ladoa,ladob,ladoc,ladod;
+	
+	Leer(ladoa);
+	Leer(ladob);
+	Leer(ladoc);
+	Leer(ladod);
+	perimetro = ladoa + ladob + ladoc + ladod;
+	Escribir(perimetro);
+Fin

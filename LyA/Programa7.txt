@@ -1,0 +1,10 @@
+Programa
+	Inicio
+	Entero cuartomas, lect;
+
+	Leer(lect);
+	cuartomas= 10 + (lect / 4);
+
+	
+	Escribir (cuartomas) ;
+Fin

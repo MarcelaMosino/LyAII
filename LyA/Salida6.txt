@@ -1,0 +1,20 @@
+ldvr peso
+ldve edad
+ldce 10
+ldve t1
+ldcr 100.0
+ldcr 5.5
+ldvr t2
+ldvr t3
+rde edad
+rdr peso
+mov t1 10
+res t1 10
+mov edad t1
+mov t2 100.0
+div t2 5.5
+mov peso t2
+mov t3 peso
+mov peso t3
+wtr peso
+wte edad

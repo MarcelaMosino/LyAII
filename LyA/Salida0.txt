@@ -1,0 +1,23 @@
+ldvr multiple
+ldve numero
+ldce 23
+ldcr 56.2
+ldvr res
+ldcr 5.3
+ldvr t1
+ldve num
+ldce 42
+ldve t3
+ldce 64
+mov numero 23
+rde num
+mov t1 res
+res t1 5.3
+add t1 56.2
+mov multiple t1
+mov t3 num
+div t3 42
+mov numero t3
+add numero 64
+mov num numero
+wtr res

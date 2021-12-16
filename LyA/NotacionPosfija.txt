@@ -1,0 +1,12 @@
+perimetro Entero
+ladoa Entero
+ladob Entero
+ladoc Entero
+ladod Entero
+
+ladoa Leer 
+ladob Leer 
+ladoc Leer 
+ladod Leer 
+perimetro ladoa ladob + ladoc + ladod + = 
+perimetro Escribir 

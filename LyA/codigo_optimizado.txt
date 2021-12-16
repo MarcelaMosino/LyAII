@@ -1,0 +1,14 @@
+ldve perimetro
+ldve ladoa
+ldve ladob
+ldve ladoc
+ldve ladod
+rde ladoa
+rde ladob
+rde ladoc
+rde ladod
+add ladob ladoa
+add ladoc ladob
+add ladod ladoc
+mov perimetro ladod
+wte perimetro

@@ -1,0 +1,11 @@
+ldve promedio
+ldce 100
+ldve lect
+ldce 4
+ldve t1
+rde lect
+mov t1 lect
+div t1 4
+add t1 100
+mov promedio t1
+wte promedio

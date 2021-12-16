@@ -1,0 +1,15 @@
+Programa
+	Inicio
+	Real peso;
+	Entero edad;
+
+	Leer(edad);
+	Leer(peso);
+
+	edad = 10 - 0;
+	peso = 100.0 / 5.5;
+	peso = peso / 1.0;
+
+	Escribir (peso) ;
+	Escribir (edad) ;
+Fin
